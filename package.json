@@ -1,0 +1,32 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "Testing Application for Git Implementation",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbs1972/TestApp.git"
+  },
+  "keywords": [
+    "React",
+    "JS"
+  ],
+  "author": "Jayanta B. Sen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbs1972/TestApp/issues"
+  },
+  "homepage": "https://github.com/jbs1972/TestApp#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  }
+}
